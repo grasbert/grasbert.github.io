@@ -1,0 +1,16 @@
+@import 'base/variable';
+* {
+    font-family: 'Museo Sana Cyrl', sans-serif;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto; 
+}
+@import './blocks/promo.scss';
+@import './blocks/header.scss';
+@import './blocks/buttons.scss';
+@import './blocks/preferens';
+@import './blocks/consultation';
+@import './blocks/title';
+@import './blocks/forms';
+@import './base/media';

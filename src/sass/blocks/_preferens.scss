@@ -1,0 +1,30 @@
+.preferens {
+    padding-top: 69px;
+    padding-bottom: 96px;
+    background-color: #f6f6f6;
+    &__wrapper {
+        padding-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items {
+        max-width: 230px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        .main {
+            color: $main_color;
+        }
+    }
+    &__label {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__icon {
+        margin-bottom: 48px;
+    }
+    
+}
