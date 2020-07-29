@@ -1,0 +1,35 @@
+.clients {
+    padding-bottom: 71px;
+    &__items {
+        margin-top: 70px;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        margin: 0 0 50px 0;
+        max-width: 640px;
+        &__title {
+            margin-bottom: 14px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__subtitle {
+            margin-bottom: 19px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #646464;
+        }
+    }
+    img {
+        border-radius: 100%;
+        overflow: hidden;
+    }
+}

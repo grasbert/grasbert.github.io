@@ -147,6 +147,28 @@
         }
         &__content {
             margin-top: 20px !important;
+            justify-content: center !important;
+        }
+    }
+    .clients {
+        &__items {
+            margin-top: 30px !important;
+        }
+        &__item {
+            flex-direction: column;
+            align-items: center !important;
+        }
+        &__text {
+            text-align: center;
+            &__title {
+                margin-top: 20px;
+            }
+        }
+    }
+    .footer{
+        &__info {
+            width: 100% !important;
+            padding: 50px 20px 60px 20px !important;
         }
     }
 }
