@@ -134,4 +134,9 @@
             align-items: center;
         }
     }
+    .carousel {
+        &__inner {
+            width: 80%;
+        }
+    }
 }
